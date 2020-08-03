@@ -6,9 +6,9 @@ import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <img src={logo} className="App-logo" alt="logo" />
-        <h1> Hello from MReact </h1>
+        <h1> Hello from MReact - We now have auth!!</h1>
 	<p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
